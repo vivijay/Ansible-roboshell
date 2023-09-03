@@ -16,12 +16,12 @@
   - name: remove html directory
     ansible.builtin.file:
       path: /usr/share/nginx/html
-      satus: absent
+      state: absent
   
   - name: cretae html directory
     ansible.builtin.file:
       path: /usr/share/nginx/html/
-      satus: directory
+      state: directory
 
   - name: downlaod the archieve
     ansible.builtin.get_url:
