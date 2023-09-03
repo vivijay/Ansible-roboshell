@@ -7,8 +7,8 @@
       name: nginx
       status: installed
   
-  - name: start nad enable nginx
-    ansibile.builtin.service:
+  - name: start and enable nginx
+    ansible.builtin.service:
       name: nginx
       state: started
       enabled: yes
