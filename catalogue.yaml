@@ -24,7 +24,7 @@
   - name: Create /app directory
     ansible.builtin.stat:
       path: /app
-      register: directory
+    register: directory
 
   - name: Print the directory stats
     ansible.builtin.debug:
