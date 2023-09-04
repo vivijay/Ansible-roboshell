@@ -13,3 +13,7 @@ redis.learndevcloud.online
 
 [user]
 user.learndevcloud.online
+
+[cart]
+cart.learndevcloud.online
+
