@@ -7,3 +7,6 @@ catalogue.learndevcloud.online
 
 [web]
 web.learndevcloud.online
+
+[redis]
+redis.learndevcloud.online
