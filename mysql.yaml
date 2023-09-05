@@ -1,5 +1,5 @@
 - name: Install mySql
-  hosts: mySql
+  hosts: mysql
   become: yes
   tasks:
   - name: Diasable current mysql version
