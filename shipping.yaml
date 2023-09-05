@@ -18,7 +18,7 @@
       name: roboshop
 
   - name: create app directory
-    ansible.builtin.stat
+    ansible.builtin.stat:
       name: /app
       register: directory
 
