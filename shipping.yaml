@@ -49,7 +49,7 @@
       src: shipping.service
       dest: /etc/systemd/system/shipping.service
 
-  - name: deamon reload 
+  - name: deamon reload
     ansible.builtin:systemd:
       daemon_reload: true
 
