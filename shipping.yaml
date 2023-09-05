@@ -9,8 +9,8 @@
   
   - name: Check roboshop user exists or not 
     ansible.builtin.command: id roboshop
-      register: output
-      ignore_errors: true
+    register: output
+    ignore_errors: true
   
   - when: output.rc != 0
     name: create user roboshop
@@ -20,7 +20,7 @@
   - name: create app directory
     ansible.builtin.stat:
       name: /app
-      register: directory
+    register: directory
 
   - when: directory.stat.exists == False
     name: Creating the directory file
