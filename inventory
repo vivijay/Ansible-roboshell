@@ -22,3 +22,6 @@ mysql.learndevcloud.online
 
 [shipping]
 shipping.learndevcloud.online
+
+[rabbitmq]
+rabbitmq.learndevcloud.online
